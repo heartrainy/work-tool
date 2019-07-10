@@ -1,0 +1,13 @@
+{
+  "name": "worktool",
+  "version": "1.0.0",
+  "bin": {
+    "wt": "./bin/index.js"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "compressing": "^1.4.0"
+  }
+}
