@@ -28,7 +28,7 @@ export interface ModelType {
 }
 
 const Model: ModelType = {
-  namespace: 'moive',
+  namespace: '__MODEL_NAME__',
 
   state: {
     data: {

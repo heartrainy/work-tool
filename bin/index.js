@@ -10,7 +10,7 @@ program.version('0.1.0')
 
 program.command('test')
 .action(function(argv) {
-  compress.copyFile()
+  console.log(1)
 })
 
 program.parse(process.argv)
