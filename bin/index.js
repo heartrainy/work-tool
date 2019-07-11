@@ -10,9 +10,7 @@ program.version('0.1.0')
 
 program.command('test')
 .action(function(argv) {
-  console.log(process.version);
-  console.log(process.platform);
-  console.log(process.arch);
+  compress.copyFile()
 })
 
 program.parse(process.argv)
