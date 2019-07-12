@@ -9,7 +9,7 @@ program.version('0.1.0')
   compress.compressDir()
 })
 
-program.command('test')
+program.command('create')
 .option('-m, --model <name>', 'create model')
 .action(function(argv) {
   if (argv.model) {
