@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const program = require('commander');
 const compress = require('../src/compress');
+const createTemplate = require('../src/createTemplate');
 
 program.version('0.1.0')
 .command('compress')
@@ -9,8 +10,11 @@ program.version('0.1.0')
 })
 
 program.command('test')
+.option('-m, --model <name>', 'create model')
 .action(function(argv) {
-  console.log(1)
+  if (argv.model) {
+    createTemplate.createModel(argv.model)
+  }
 })
 
 program.parse(process.argv)

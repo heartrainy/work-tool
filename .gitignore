@@ -1,6 +1,9 @@
-/test
-/node_modules
 /.vscode
+/node_modules
+
+/test
+/createFile
+
 yarn.lock
 package-lock.json
 
